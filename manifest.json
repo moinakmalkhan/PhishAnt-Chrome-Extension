@@ -1,0 +1,27 @@
+{
+  "manifest_version":2,
+  "name": "PhishAnt",
+  "version": "1.0.01",
+  "description": "A phishing site detection",
+  "permissions": ["activeTab","declarativeContent", "storage", "webNavigation"],
+  "icons":{
+    "128":"logo.png"
+  },
+  "background": {
+    "scripts": [
+      "javascript/jquery.js",
+      "javascript/randomforest.js",
+      "javascript/background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_popup": "index.html"
+  },
+  "content_scripts":[
+    {
+      "matches": ["http://*/*","https://*/*"],
+      "js": ["javascript/jquery.js","javascript/features.js"]
+    }
+  ]
+}

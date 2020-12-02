@@ -1,0 +1,47 @@
+html {
+      width: 420px;
+      height: 250px;
+}
+body {
+    width: 420px;
+    padding: 0px;
+    margin: 0px;
+    background: #fff;
+    height: 250px;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    font-size: 15px;
+}
+h1 {
+    font-family: 'Showcard Gothic', sans-serif;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+}
+.float-right
+{
+    float: right;
+}
+#site_msg{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-family: 'Microsoft YaHei UI', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    color: green;
+}
+ul {
+    padding: 10px 10px;
+    list-style: none;
+}
+
+.report-link{
+    text-align: center;
+}
+

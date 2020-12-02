@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PhishTor</title>
+    <style>
+        html {
+            width: 420px;
+            height: 250px;
+        }
+        #url_label{
+            font-size: 20px;
+            display: inline;
+        }
+        #url_input{
+            font-size: 18px;
+            width: 300px;
+            margin: 10px;
+        }
+        #phishing_btn{
+            width: 33%;
+            padding: 10px;
+            background-color: #d9534f;
+            color: #fff;
+        }
+        #legit_btn{
+            width: 33%;
+            padding: 10px;
+            float: right;
+            background-color: #5cb85c;
+            color: #fff;
+        }
+        #delete_btn{
+            width: 34%;
+            padding: 10px;
+            float: right;
+            background-color: #f0ad4e;
+            color: #fff;
+        }
+        .btn{
+            margin: 20px;
+        }
+        .btn input{
+            border-radius: 10%;
+        }
+        #showmsg{
+            text-align: center;
+            font-size: 18px;
+        }
+
+    </style>
+</head>
+<body>
+    <center>
+        <img src="./images/icon.png" class="mt-20" alt="" width="100" height="100"><br>
+  
+        <label id='url_label'>URL :</label> <input type="text" id="url_input">
+    </center>
+    <p id="showmsg"></p>
+    <div class="btn">
+        <input type="button" value="Phishing" class="rep_btn" id="phishing_btn">
+        <input type="button" value="Legitimate" class="rep_btn" id="legit_btn">
+        <input type="button" value="Delete from list" class="rep_btn" id="delete_btn">
+    </div>
+      <script src="javascript/jquery.js" type="text/javascript"></script>
+      <script src="./javascript/reports.js"></script>
+</body>
+</html>
